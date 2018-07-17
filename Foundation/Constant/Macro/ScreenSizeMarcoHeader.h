@@ -42,4 +42,10 @@
 #define FONT_SCALE_SIZE(x)  (UI_H_SCALE * x)
 
 
+
+
+
+#define SYSTEM_VERSION_LESS_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+
+
 #endif /* ScreenSizeMarcoHeader_h */

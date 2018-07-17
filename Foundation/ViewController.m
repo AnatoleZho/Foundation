@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AViewController.h"
+#import "AZBGColorDemoViewController.h"
 
 @interface ViewController ()
 {
@@ -106,6 +107,13 @@
 - (IBAction)pushAction:(UIButton *)sender {
     AViewController *aVC = [[AViewController alloc] init];
     [self.navigationController pushViewController:aVC animated:YES];
+}
+
+- (IBAction)pushStoryBoard:(UIButton *)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:NSStringFromClass([AZBGColorDemoViewController class]) bundle:nil];
+    AZBGColorDemoViewController *vc = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([AZBGColorDemoViewController class])];
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 

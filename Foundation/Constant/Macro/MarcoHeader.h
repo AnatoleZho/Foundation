@@ -26,11 +26,13 @@
 #endif
 
 
+
 #define kNaviTitleFontSize FONT_SCALE_SIZE(17)
 #define kNaviItemFontSize FONT_SCALE_SIZE(15)
 
 
 
+#define WHMainClolor     RGB(0.0, 138.0, 255.0)
 
 
 

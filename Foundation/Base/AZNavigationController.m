@@ -7,7 +7,7 @@
 //
 
 #import "AZNavigationController.h"
-
+#import "UICustomBarBtnItem.h"
 @interface AZNavigationController ()
 
 @end
@@ -19,8 +19,30 @@
     
     // title 颜色
     self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: WHMainClolor, NSFontAttributeName: [UIFont systemFontOfSize:18.0]};
+    //  To tint the bar's background, please use -barTintColor.
     self.navigationBar.barTintColor = [UIColor colorWithRed:247.0/255.0 green: 247.0/255.0 blue:247.0/255.0 alpha:1.0];
+   // 设置返回按钮的颜色 只需要设置tintColor属性即可
     self.navigationBar.tintColor = WHMainClolor;
+   // 设置导航栏底部线条颜色
+    [self.navigationBar setShadowImage:[self imageWithColor:[UIColor grayColor]]];
+    // 设置背景色
+    [self.navigationBar setBackgroundImage:[self imageWithColor:[UIColor brownColor]] forBarMetrics:UIBarMetricsDefault];
+
+}
+
+- (UIImage *)imageWithColor:(UIColor *)color
+{
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -33,6 +55,7 @@
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
+        
     }
     [super pushViewController:viewController animated:animated];
 }
