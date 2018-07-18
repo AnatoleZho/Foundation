@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B0AF31DD91E02EDA60A387 /* libPods-Foundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50827723E6CBFB10BC589811 /* libPods-Foundation.a */; };
 		DF17E28820F86A9A00FC8141 /* YSActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17E28520F86A9900FC8141 /* YSActionSheetView.m */; };
 		DF17E28920F86A9A00FC8141 /* YSActionSheetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17E28620F86A9900FC8141 /* YSActionSheetButton.m */; };
 		DF17E28A20F86A9A00FC8141 /* ShareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17E28720F86A9900FC8141 /* ShareTableViewCell.m */; };
@@ -19,6 +20,8 @@
 		DF64ADD820FD882E0073019F /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADD720FD882D0073019F /* UINavigationBar+Awesome.m */; };
 		DF64ADDC20FD89450073019F /* AZBGColorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADDB20FD89450073019F /* AZBGColorDemoViewController.m */; };
 		DF64ADDE20FD895A0073019F /* AZBGColorDemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF64ADDD20FD895A0073019F /* AZBGColorDemoViewController.storyboard */; };
+		DF64ADE120FDCB050073019F /* AZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADE020FDCB050073019F /* AZNetworkManager.m */; };
+		DF64ADE520FDCBAE0073019F /* MBProgressHUD+AZ.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADE420FDCBAE0073019F /* MBProgressHUD+AZ.m */; };
 		DF9DDB7120F5CD1300C45C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DDB7020F5CD1300C45C23 /* AppDelegate.m */; };
 		DF9DDB7720F5CD1300C45C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9DDB7520F5CD1300C45C23 /* Main.storyboard */; };
 		DF9DDB7A20F5CD1300C45C23 /* Foundation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF9DDB7820F5CD1300C45C23 /* Foundation.xcdatamodeld */; };
@@ -60,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D64D39F0AA23E3A41A29B34 /* Pods-Foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foundation/Pods-Foundation.release.xcconfig"; sourceTree = "<group>"; };
+		46F52D2C7B4C1B85C33D0A74 /* Pods-Foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foundation/Pods-Foundation.debug.xcconfig"; sourceTree = "<group>"; };
+		50827723E6CBFB10BC589811 /* libPods-Foundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF17E28220F86A9900FC8141 /* YSActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSActionSheetView.h; sourceTree = "<group>"; };
 		DF17E28320F86A9900FC8141 /* YSActionSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSActionSheetButton.h; sourceTree = "<group>"; };
 		DF17E28420F86A9900FC8141 /* ShareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareTableViewCell.h; sourceTree = "<group>"; };
@@ -82,6 +88,10 @@
 		DF64ADDA20FD89450073019F /* AZBGColorDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZBGColorDemoViewController.h; sourceTree = "<group>"; };
 		DF64ADDB20FD89450073019F /* AZBGColorDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZBGColorDemoViewController.m; sourceTree = "<group>"; };
 		DF64ADDD20FD895A0073019F /* AZBGColorDemoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AZBGColorDemoViewController.storyboard; sourceTree = "<group>"; };
+		DF64ADDF20FDCB050073019F /* AZNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNetworkManager.h; sourceTree = "<group>"; };
+		DF64ADE020FDCB050073019F /* AZNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNetworkManager.m; sourceTree = "<group>"; };
+		DF64ADE320FDCBAE0073019F /* MBProgressHUD+AZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+AZ.h"; sourceTree = "<group>"; };
+		DF64ADE420FDCBAE0073019F /* MBProgressHUD+AZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AZ.m"; sourceTree = "<group>"; };
 		DF9DDB6C20F5CD1300C45C23 /* Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9DDB6F20F5CD1300C45C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF9DDB7020F5CD1300C45C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B0AF31DD91E02EDA60A387 /* libPods-Foundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +172,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A079D7CAD8DBF856B93AF7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50827723E6CBFB10BC589811 /* libPods-Foundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB7C3CCC925B6796D0AF6DE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F52D2C7B4C1B85C33D0A74 /* Pods-Foundation.debug.xcconfig */,
+				0D64D39F0AA23E3A41A29B34 /* Pods-Foundation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF17E28120F86A9900FC8141 /* ShareView */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,12 +205,54 @@
 		DF17E29520F870E000FC8141 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				DF64ADDF20FDCB050073019F /* AZNetworkManager.h */,
+				DF64ADE020FDCB050073019F /* AZNetworkManager.m */,
 				DF17E29920F8711D00FC8141 /* PortConstant.h */,
 				DF17E29720F8711D00FC8141 /* PortConstant.m */,
 				DF17E29820F8711D00FC8141 /* ParamConstant.h */,
 				DF17E29620F8711D00FC8141 /* ParamConstant.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		DF64ADE220FDCB7A0073019F /* MBProgressHUD+ */ = {
+			isa = PBXGroup;
+			children = (
+				DF64ADE320FDCBAE0073019F /* MBProgressHUD+AZ.h */,
+				DF64ADE420FDCBAE0073019F /* MBProgressHUD+AZ.m */,
+			);
+			path = "MBProgressHUD+";
+			sourceTree = "<group>";
+		};
+		DF64ADE620FDE9980073019F /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				DF64ADE920FDE9AA0073019F /* Model */,
+				DF64ADE820FDE9A70073019F /* View */,
+				DF64ADE720FDE9A20073019F /* Controller */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		DF64ADE720FDE9A20073019F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF64ADE820FDE9A70073019F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF64ADE920FDE9AA0073019F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DF9DDB6320F5CD1300C45C23 = {
@@ -192,6 +262,8 @@
 				DF9DDB8A20F5CD1400C45C23 /* FoundationTests */,
 				DF9DDB9520F5CD1400C45C23 /* FoundationUITests */,
 				DF9DDB6D20F5CD1300C45C23 /* Products */,
+				BB7C3CCC925B6796D0AF6DE1 /* Pods */,
+				0A079D7CAD8DBF856B93AF7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +291,7 @@
 				DF64ADDA20FD89450073019F /* AZBGColorDemoViewController.h */,
 				DF64ADDB20FD89450073019F /* AZBGColorDemoViewController.m */,
 				DF64ADDD20FD895A0073019F /* AZBGColorDemoViewController.storyboard */,
+				DF64ADE620FDE9980073019F /* Cart */,
 				DF9DDB7B20F5CD1400C45C23 /* Assets.xcassets */,
 				DF9DDBAB20F5D00700C45C23 /* Base */,
 				DF9DDBAA20F5D00000C45C23 /* Kits */,
@@ -283,6 +356,7 @@
 			children = (
 				DF9DDBEB20F5FC0600C45C23 /* AZPublicToos.h */,
 				DF9DDBEC20F5FC0600C45C23 /* AZPublicToos.m */,
+				DF64ADE220FDCB7A0073019F /* MBProgressHUD+ */,
 				DF17E29520F870E000FC8141 /* Network */,
 				DF9DDBCD20F5E75D00C45C23 /* CodeAndDecode */,
 			);
@@ -368,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF9DDB9B20F5CD1400C45C23 /* Build configuration list for PBXNativeTarget "Foundation" */;
 			buildPhases = (
+				4527CF7892B4B3A6E49C3172 /* [CP] Check Pods Manifest.lock */,
 				DF9DDB6820F5CD1300C45C23 /* Sources */,
 				DF9DDB6920F5CD1300C45C23 /* Frameworks */,
 				DF9DDB6A20F5CD1300C45C23 /* Resources */,
+				17DC8679CDF9DF9F8045813F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -494,6 +570,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17DC8679CDF9DF9F8045813F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foundation/Pods-Foundation-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foundation/Pods-Foundation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4527CF7892B4B3A6E49C3172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foundation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF9DDB6820F5CD1300C45C23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -512,8 +629,10 @@
 				DF9DDBE320F5F37300C45C23 /* AZViewController.m in Sources */,
 				DF17E29A20F8711D00FC8141 /* ParamConstant.m in Sources */,
 				DF17E29220F86F7E00FC8141 /* AViewController.m in Sources */,
+				DF64ADE120FDCB050073019F /* AZNetworkManager.m in Sources */,
 				DF9DDBEA20F5F5AA00C45C23 /* AZBlankView.m in Sources */,
 				DF9DDBE720F5F40A00C45C23 /* UICustomBarBtnItem.m in Sources */,
+				DF64ADE520FDCBAE0073019F /* MBProgressHUD+AZ.m in Sources */,
 				DF9DDB7120F5CD1300C45C23 /* AppDelegate.m in Sources */,
 				DF17E28820F86A9A00FC8141 /* YSActionSheetView.m in Sources */,
 				DF17E28920F86A9A00FC8141 /* YSActionSheetButton.m in Sources */,
@@ -714,6 +833,7 @@
 		};
 		DF9DDB9C20F5CD1400C45C23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F52D2C7B4C1B85C33D0A74 /* Pods-Foundation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -731,6 +851,7 @@
 		};
 		DF9DDB9D20F5CD1400C45C23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D64D39F0AA23E3A41A29B34 /* Pods-Foundation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

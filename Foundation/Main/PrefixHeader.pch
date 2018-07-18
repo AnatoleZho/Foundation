@@ -15,4 +15,14 @@
 
 #import "ExtensionHeader.h"
 
+#import "AFNetworking.h"
+
+#import "MBProgressHUD.h"
+
+#import "SocketRocket.h"
+
+#import "MJRefresh.h"
+
+#import "MJExtension.h"
+
 #endif /* PrefixHeader_pch */

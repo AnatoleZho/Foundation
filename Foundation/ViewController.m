@@ -14,7 +14,10 @@
 {
     
     UICustomBarBtnItem *_leftItem;
+    UICustomBarBtnItem *_rightItem;
+
     __weak IBOutlet UILabel *_label;
+    
 }
 @property (weak, nonatomic) IBOutlet UIButton *imgTitleBtn;
 
@@ -38,9 +41,13 @@
     Log(@"%@", kCode);
     Log(@"%.2f", FONT_SCALE_SIZE(15.0));
     _leftItem = [UICustomBarBtnItem itemWithTarget:self action:@selector(leftAction) image:@"" title:@"左按钮"];
+    _rightItem = [UICustomBarBtnItem itemWithTarget:self action:@selector(goCartAction) image:@"" title:@"购物车"];
+    
 //    _leftItem.backgroundColor = [UIColor redColor];
     _leftItem.itemTextColor = [UIColor cyanColor];
     self.navigationItem.leftBarButtonItem = _leftItem;
+    _rightItem.itemTextColor = [UIColor cyanColor];
+    self.navigationItem.rightBarButtonItem = _rightItem;
     
     _label.text = NSLocalizedString(@"click", nil);
     
@@ -71,6 +78,9 @@
     NSLog(@"%d", _leftItem.isSelected );
 }
 
+- (void)goCartAction {
+
+}
 
 - (IBAction)conformAction:(UIButton *)sender {
     [UIAlertController showInController:self title:@"Title" msg:@"Message" conformTitle:@"Conform" conformAction:^{
