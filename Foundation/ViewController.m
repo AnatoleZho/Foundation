@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "AViewController.h"
 #import "AZBGColorDemoViewController.h"
+#import "AZCartVC.h"
 
 @interface ViewController ()
 {
@@ -61,9 +62,15 @@
     [self.imgTitleBtn setImageEdgeInsets:UIEdgeInsetsMake(-self.imgTitleBtn.titleLabel.intrinsicContentSize.height, 0, 0, -self.imgTitleBtn.titleLabel.intrinsicContentSize.width)];
     [self.imgTitleBtn setTitleEdgeInsets:UIEdgeInsetsMake(self.imgTitleBtn.currentImage.size.height + 20, -self.imgTitleBtn.currentImage.size.width, 0, 0)];
     // 设置 title 两行
+    self.imgTitleBtn.backgroundColor = [UIColor whiteColor];
     [self.imgTitleBtn setTitle:@"编辑\n信息" forState:UIControlStateNormal];
     self.imgTitleBtn.titleLabel.numberOfLines = 0;
-
+    
+    if ([self.imgTitleBtn isDescendantOfView:self.view]) {
+        NSLog(@"已添加");
+    } else {
+        NSLog(@"未添加");
+    }
 }
 
 - (void)leftAction {
@@ -79,7 +86,9 @@
 }
 
 - (void)goCartAction {
-
+    AZCartVC *cartVC = [[AZCartVC alloc] init];
+    cartVC.title = @"购物车";
+    [self.navigationController pushViewController:cartVC animated:YES];
 }
 
 - (IBAction)conformAction:(UIButton *)sender {

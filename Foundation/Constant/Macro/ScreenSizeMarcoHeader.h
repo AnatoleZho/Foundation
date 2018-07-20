@@ -12,6 +12,8 @@
 ///屏幕宽高
 #define kScreenWidth    [[UIScreen mainScreen] bounds].size.width
 #define kScreenHeight   [[UIScreen mainScreen] bounds].size.height
+// 倍图
+#define kScreenScale   [[UIScreen mainScreen].scale
 
 ///iphone 系列尺寸
 #define IPHONE_4         CGSizeEqualToSize(CGSizeMake(320, 480), [[UIScreen mainScreen] bounds].size)
@@ -22,6 +24,10 @@
 ///UI机型尺寸比例（以iphone6为基准）
 #define UI_H_SCALE                  (CGFloat)kScreenWidth/375.f
 #define UI_V_SCALE                  kScreenHeight/667.f
+
+// 线条高度
+#define k_SINGLE_LINE          (1 / [UIScreen mainScreen].scale)
+
 
 //  底部安全区域高
 #define kBottomSafeAreaHeight (kScreenHeight == 812.0 ? 34.f : 0)

@@ -25,6 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.tableView.dataSource = self;
+    self.tableView.backgroundColor = self.view.backgroundColor;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     [self.navigationController.navigationBar lt_setBackgroundColor:[UIColor clearColor]];
     

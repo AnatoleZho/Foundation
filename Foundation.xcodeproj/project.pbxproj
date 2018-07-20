@@ -17,11 +17,17 @@
 		DF17E29A20F8711D00FC8141 /* ParamConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17E29620F8711D00FC8141 /* ParamConstant.m */; };
 		DF17E29B20F8711D00FC8141 /* PortConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17E29720F8711D00FC8141 /* PortConstant.m */; };
 		DF17E2A120F8A00100FC8141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17E2A020F8A00100FC8141 /* ViewController.m */; };
+		DF37479721008E8700FDD361 /* AZCartSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF37479621008E8700FDD361 /* AZCartSectionHeaderView.m */; };
+		DF37479A2101AA8700FDD361 /* AZCartBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3747992101AA8700FDD361 /* AZCartBottomView.m */; };
 		DF64ADD820FD882E0073019F /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADD720FD882D0073019F /* UINavigationBar+Awesome.m */; };
 		DF64ADDC20FD89450073019F /* AZBGColorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADDB20FD89450073019F /* AZBGColorDemoViewController.m */; };
 		DF64ADDE20FD895A0073019F /* AZBGColorDemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF64ADDD20FD895A0073019F /* AZBGColorDemoViewController.storyboard */; };
 		DF64ADE120FDCB050073019F /* AZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADE020FDCB050073019F /* AZNetworkManager.m */; };
 		DF64ADE520FDCBAE0073019F /* MBProgressHUD+AZ.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADE420FDCBAE0073019F /* MBProgressHUD+AZ.m */; };
+		DF64ADEB20FEEC500073019F /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF64ADEA20FEEC500073019F /* data.plist */; };
+		DF64ADEE20FEED2E0073019F /* AZCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADED20FEED2E0073019F /* AZCartVC.m */; };
+		DF64ADF120FF37030073019F /* AZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADF020FF37030073019F /* AZTableViewCell.m */; };
+		DF64ADF420FF3ADB0073019F /* AZChangeCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64ADF320FF3ADB0073019F /* AZChangeCountView.m */; };
 		DF9DDB7120F5CD1300C45C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DDB7020F5CD1300C45C23 /* AppDelegate.m */; };
 		DF9DDB7720F5CD1300C45C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9DDB7520F5CD1300C45C23 /* Main.storyboard */; };
 		DF9DDB7A20F5CD1300C45C23 /* Foundation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF9DDB7820F5CD1300C45C23 /* Foundation.xcdatamodeld */; };
@@ -82,6 +88,10 @@
 		DF17E29920F8711D00FC8141 /* PortConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortConstant.h; sourceTree = "<group>"; };
 		DF17E29F20F89FA100FC8141 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DF17E2A020F8A00100FC8141 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF37479521008E8700FDD361 /* AZCartSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZCartSectionHeaderView.h; sourceTree = "<group>"; };
+		DF37479621008E8700FDD361 /* AZCartSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZCartSectionHeaderView.m; sourceTree = "<group>"; };
+		DF3747982101AA8700FDD361 /* AZCartBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZCartBottomView.h; sourceTree = "<group>"; };
+		DF3747992101AA8700FDD361 /* AZCartBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZCartBottomView.m; sourceTree = "<group>"; };
 		DF64ADD620FD882D0073019F /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		DF64ADD720FD882D0073019F /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		DF64ADD920FD886D0073019F /* ExtensionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionHeader.h; sourceTree = "<group>"; };
@@ -92,6 +102,13 @@
 		DF64ADE020FDCB050073019F /* AZNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNetworkManager.m; sourceTree = "<group>"; };
 		DF64ADE320FDCBAE0073019F /* MBProgressHUD+AZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+AZ.h"; sourceTree = "<group>"; };
 		DF64ADE420FDCBAE0073019F /* MBProgressHUD+AZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AZ.m"; sourceTree = "<group>"; };
+		DF64ADEA20FEEC500073019F /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		DF64ADEC20FEED2E0073019F /* AZCartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZCartVC.h; sourceTree = "<group>"; };
+		DF64ADED20FEED2E0073019F /* AZCartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZCartVC.m; sourceTree = "<group>"; };
+		DF64ADEF20FF37030073019F /* AZTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZTableViewCell.h; sourceTree = "<group>"; };
+		DF64ADF020FF37030073019F /* AZTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZTableViewCell.m; sourceTree = "<group>"; };
+		DF64ADF220FF3ADB0073019F /* AZChangeCountView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZChangeCountView.h; sourceTree = "<group>"; };
+		DF64ADF320FF3ADB0073019F /* AZChangeCountView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZChangeCountView.m; sourceTree = "<group>"; };
 		DF9DDB6C20F5CD1300C45C23 /* Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9DDB6F20F5CD1300C45C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF9DDB7020F5CD1300C45C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -227,6 +244,7 @@
 		DF64ADE620FDE9980073019F /* Cart */ = {
 			isa = PBXGroup;
 			children = (
+				DF64ADEA20FEEC500073019F /* data.plist */,
 				DF64ADE920FDE9AA0073019F /* Model */,
 				DF64ADE820FDE9A70073019F /* View */,
 				DF64ADE720FDE9A20073019F /* Controller */,
@@ -237,6 +255,8 @@
 		DF64ADE720FDE9A20073019F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DF64ADEC20FEED2E0073019F /* AZCartVC.h */,
+				DF64ADED20FEED2E0073019F /* AZCartVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,6 +264,14 @@
 		DF64ADE820FDE9A70073019F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF64ADEF20FF37030073019F /* AZTableViewCell.h */,
+				DF64ADF020FF37030073019F /* AZTableViewCell.m */,
+				DF64ADF220FF3ADB0073019F /* AZChangeCountView.h */,
+				DF64ADF320FF3ADB0073019F /* AZChangeCountView.m */,
+				DF37479521008E8700FDD361 /* AZCartSectionHeaderView.h */,
+				DF37479621008E8700FDD361 /* AZCartSectionHeaderView.m */,
+				DF3747982101AA8700FDD361 /* AZCartBottomView.h */,
+				DF3747992101AA8700FDD361 /* AZCartBottomView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -549,6 +577,7 @@
 				DF9DDB7C20F5CD1400C45C23 /* Assets.xcassets in Resources */,
 				DF64ADDE20FD895A0073019F /* AZBGColorDemoViewController.storyboard in Resources */,
 				DF9DDB7720F5CD1300C45C23 /* Main.storyboard in Resources */,
+				DF64ADEB20FEEC500073019F /* data.plist in Resources */,
 				DF17E29320F86F7E00FC8141 /* formatA.json in Resources */,
 				DF9DDBBB20F5E35500C45C23 /* InfoPlist.strings in Resources */,
 			);
@@ -618,13 +647,16 @@
 			files = (
 				DF17E2A120F8A00100FC8141 /* ViewController.m in Sources */,
 				DF9DDBD420F5E77500C45C23 /* JKEncrypt.m in Sources */,
+				DF37479A2101AA8700FDD361 /* AZCartBottomView.m in Sources */,
 				DF9DDBDA20F5EB8100C45C23 /* NSString+Secret.m in Sources */,
 				DF9DDBB220F5D0FA00C45C23 /* UIAlertController+Package.m in Sources */,
 				DF9DDBD720F5E89D00C45C23 /* NSString+Base64After3DES.m in Sources */,
 				DF9DDB7A20F5CD1300C45C23 /* Foundation.xcdatamodeld in Sources */,
+				DF37479721008E8700FDD361 /* AZCartSectionHeaderView.m in Sources */,
 				DF64ADDC20FD89450073019F /* AZBGColorDemoViewController.m in Sources */,
 				DF9DDBED20F5FC0600C45C23 /* AZPublicToos.m in Sources */,
 				DF17E28A20F86A9A00FC8141 /* ShareTableViewCell.m in Sources */,
+				DF64ADF120FF37030073019F /* AZTableViewCell.m in Sources */,
 				DF9DDB8220F5CD1400C45C23 /* main.m in Sources */,
 				DF9DDBE320F5F37300C45C23 /* AZViewController.m in Sources */,
 				DF17E29A20F8711D00FC8141 /* ParamConstant.m in Sources */,
@@ -635,8 +667,10 @@
 				DF64ADE520FDCBAE0073019F /* MBProgressHUD+AZ.m in Sources */,
 				DF9DDB7120F5CD1300C45C23 /* AppDelegate.m in Sources */,
 				DF17E28820F86A9A00FC8141 /* YSActionSheetView.m in Sources */,
+				DF64ADEE20FEED2E0073019F /* AZCartVC.m in Sources */,
 				DF17E28920F86A9A00FC8141 /* YSActionSheetButton.m in Sources */,
 				DF9DDBAF20F5D08400C45C23 /* UIColor+Category.m in Sources */,
+				DF64ADF420FF3ADB0073019F /* AZChangeCountView.m in Sources */,
 				DF9DDBE020F5F02900C45C23 /* AZNavigationController.m in Sources */,
 				DF64ADD820FD882E0073019F /* UINavigationBar+Awesome.m in Sources */,
 				DF17E29B20F8711D00FC8141 /* PortConstant.m in Sources */,

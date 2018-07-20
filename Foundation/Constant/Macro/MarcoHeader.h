@@ -27,15 +27,28 @@
 
 
 
-#define kNaviTitleFontSize FONT_SCALE_SIZE(17)
-#define kNaviItemFontSize FONT_SCALE_SIZE(15)
+#define kNaviTitleFontSize FONT_SCALE_SIZE(17.0f)
+#define kNaviItemFontSize FONT_SCALE_SIZE(15.0f)
+
+#define k_FontSize_11 FONT_SCALE_SIZE(11.0f)
+#define k_FontSize_12 FONT_SCALE_SIZE(12.0f)
+#define k_FontSize_13 FONT_SCALE_SIZE(13.0f)
+#define k_FontSize_14 FONT_SCALE_SIZE(14.0f)
+#define k_FontSize_15 FONT_SCALE_SIZE(15.0f)
+#define k_FontSize_16 FONT_SCALE_SIZE(16.0f)
+#define k_FontSize_17 FONT_SCALE_SIZE(17.0f)
+#define k_FontSize_18 FONT_SCALE_SIZE(18.0f)
 
 
+#define kNaviTextClolor     RGB(0.0, 138.0, 255.0)
+#define kBackGroundColor [UIColor colorWithHexString:@"#ededee"]
 
-#define WHMainClolor     RGB(0.0, 138.0, 255.0)
+#define kLineColor [UIColor colorWithHexString:@"#dddddd"]
 
 
-
+#define k_Color_ddd [UIColor colorWithHexString:@"#dddddd"]
+#define k_Color_333 [UIColor colorWithHexString:@"#333333"]
+#define k_Color_666 [UIColor colorWithHexString:@"#666666"]
 
 
 

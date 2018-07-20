@@ -26,6 +26,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     [self.window makeKeyAndVisible];
+    // 避免在一个界面上同时点击多个UIButton导致同时响应多个方法
+    [[UIButton appearance] setExclusiveTouch:YES];
     return YES;
 }
 

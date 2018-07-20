@@ -18,11 +18,11 @@
     [super viewDidLoad];
     
     // title 颜色
-    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: WHMainClolor, NSFontAttributeName: [UIFont systemFontOfSize:18.0]};
+    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: kNaviTextClolor, NSFontAttributeName: [UIFont systemFontOfSize:18.0]};
     //  To tint the bar's background, please use -barTintColor.
     self.navigationBar.barTintColor = [UIColor colorWithRed:247.0/255.0 green: 247.0/255.0 blue:247.0/255.0 alpha:1.0];
    // 设置返回按钮的颜色 只需要设置tintColor属性即可
-    self.navigationBar.tintColor = WHMainClolor;
+    self.navigationBar.tintColor = kNaviTextClolor;
    // 设置导航栏底部线条颜色
     [self.navigationBar setShadowImage:[self imageWithColor:[UIColor grayColor]]];
     // 设置背景色

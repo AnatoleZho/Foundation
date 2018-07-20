@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
+typedef void(^BtnActionBlock)(UIButton * btn);
+
 typedef void(^HandleBlock)(void);
 
 @interface AZPublicToos : NSObject
